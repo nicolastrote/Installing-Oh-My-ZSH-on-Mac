@@ -10,7 +10,7 @@ or if you have already brew installed
 ```$ brew update```
 
 ## INSTALLATION ZSH
-```$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+```$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 
 ## INSTALLATION POWEERLINE9K THEME
 And installation for a "powerline" style
