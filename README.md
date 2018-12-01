@@ -7,20 +7,14 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 $ brew -v
 ```
 or if you have already brew installed
-```
-$ brew update
-```
+`$ brew update`
 
 ## INSTALLATION ZSH
-```
-$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
+`$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
 ## INSTALLATION POWEERLINE9K THEME
 And installation for a "powerline" style
-```
-$ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-```
+`$ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
 edit .zshrv config file and change the theme name : 
 ```
 $ nano ~/.zshrc
@@ -35,8 +29,6 @@ $ nano ~/.zshrc
   ZSH_THEME="powerlevel9k/powerlevel9k"
 ```
 Next https://github.com/adobe-fonts/source-code-pro tell to execute:
-```
-$ brew tap caskroom/fonts && brew cask install font-source-code-pro
-```
+`$ brew tap caskroom/fonts && brew cask install font-source-code-pro`
 TERMINAL > preferences > profils > Police > modifed...
 choose source-code-pro   13px
