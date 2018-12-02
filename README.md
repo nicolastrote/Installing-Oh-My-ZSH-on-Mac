@@ -1,4 +1,8 @@
 # MY ZSH CONFIGURATION AND TEMPLATE
+
+![alt text](https://github.com/nicolastrote/MY-ZSH-CONFIG/blob/master/zsh-nicolas-trote-color.png)
+
+
 Installation and template for my zsh:
  * zsh
  * oh-my-zsh
