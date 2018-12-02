@@ -1,7 +1,5 @@
 # MY ZSH CONFIGURATION AND TEMPLATE
-
 ![alt text](https://github.com/nicolastrote/MY-ZSH-CONFIG/blob/master/ntrote-zsh-color.png)
-
 
 Installation and template for my zsh:
  * zsh
@@ -39,6 +37,8 @@ For color download :
  * https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Light.itermcolors
 Term → preferences → profiles → colors → load presets
 
+If you like my theme, you can download my color theme from the repository: [ntrote.itermcolors](https://github.com/nicolastrote/MY-ZSH-CONFIG/blob/master/ntrote.itermcolors)
+
 ## INSTALLATION POWEERLINE9K THEME
 And installation for a "powerline" style
 ```$ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k```
@@ -57,5 +57,5 @@ $ nano ~/.zshrc
 ```
 Next https://github.com/adobe-fonts/source-code-pro tell to execute:
 `$ brew tap caskroom/fonts && brew cask install font-source-code-pro`
-Term → preferences → profiles > Police > modifed...
-choose source-code-pro   13px
+ * Term → preferences → profiles > Police > modifed...
+ * choose source-code-pro   13px
