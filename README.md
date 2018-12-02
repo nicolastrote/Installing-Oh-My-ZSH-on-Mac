@@ -49,19 +49,21 @@ $ nano ~/.zshrc
 ```
 
 ## INSTALLATION POWERLINE FONTS
-
-Having the good font with fonticons, you can choose one here : https://github.com/gabrielelana/awesome-terminal-fonts/tree/patching-strategy/patched
-I choose : 
+source : https://github.com/gabrielelana/awesome-terminal-fonts/tree/patching-strategy/patched
+Those font are ready to go with font awesome icons!
+ * download [SourceCodePro-Powerline-Awesome-Regular.ttf](https://github.com/nicolastrote/MY-ZSH-CONFIG/blob/master/SourceCodePro%2BPowerline%2BAwesome%2BRegular.ttf)
+ * on mac just double-clic to install
+ * in the .zshrc file add the POWERLEVEL9K_MODE parameter for activate font awesome icons.
 ```
 $ nano ~/.zshrc
   POWERLEVEL9K_MODE='awesome-patched'
   ZSH_THEME="powerlevel9k/powerlevel9k"
 ```
-Next https://github.com/adobe-fonts/source-code-pro tell to execute:
-`$ brew tap caskroom/fonts && brew cask install font-source-code-pro`
+And add in iTerm the font
  * Term → preferences → profiles > Police > modifed...
  * choose source-code-pro   13px
  
- # Enable word jumps and word deletion, aka natural text selection
+## ENABLE WORD JUMP & AUTOCOMPLETION
 By default, word jumps (option + → or ←) and word deletions (option + backspace) do not work. 
-To enable these, go to "iTerm → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing → Boom! Head explodes"
+To enable these, go to 
+  * iTerm → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing
