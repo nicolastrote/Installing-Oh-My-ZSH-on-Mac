@@ -49,13 +49,19 @@ $ nano ~/.zshrc
 ```
 
 ## INSTALLATION POWERLINE FONTS
-I choose a programmer font. There is Adobe Source Code Pro and Source Code Pro, I will go with Adobe Source Code Pro. Both use some additional glyphs from Font Awesome, for that we need to edit .zshrv config file and insert just before the theme name, the POWERLEVEL9K_MODE property : 
+
+Having the good font with fonticons, you can choose one here : https://github.com/gabrielelana/awesome-terminal-fonts/tree/patching-strategy/patched
+I choose : 
 ```
 $ nano ~/.zshrc
-  POWERLEVEL9K_MODE='awesome-fontconfig'
+  POWERLEVEL9K_MODE='awesome-patched'
   ZSH_THEME="powerlevel9k/powerlevel9k"
 ```
 Next https://github.com/adobe-fonts/source-code-pro tell to execute:
 `$ brew tap caskroom/fonts && brew cask install font-source-code-pro`
  * Term → preferences → profiles > Police > modifed...
  * choose source-code-pro   13px
+ 
+ # Enable word jumps and word deletion, aka natural text selection
+By default, word jumps (option + → or ←) and word deletions (option + backspace) do not work. 
+To enable these, go to "iTerm → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing → Boom! Head explodes"
