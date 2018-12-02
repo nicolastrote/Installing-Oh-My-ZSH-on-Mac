@@ -1,6 +1,6 @@
 # MY ZSH CONFIGURATION AND TEMPLATE
 
-![alt text](https://github.com/nicolastrote/MY-ZSH-CONFIG/blob/master/zsh-nicolas-trote-color.png)
+![alt text](https://github.com/nicolastrote/MY-ZSH-CONFIG/blob/master/ntrote-zsh-color.png)
 
 
 Installation and template for my zsh:
