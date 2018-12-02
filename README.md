@@ -1,7 +1,13 @@
 # MY ZSH CONFIGURATION AND TEMPLATE
-Installation and template for my zsh
+Installation and template for my zsh:
+ * zsh
+ * oh-my-zsh
+ * iTerm2
+ * POWEERLINE9K theme Solarized: Light and Solarized Dark
+ * POWERLINE fonts
 
 ## PRELEMINARY: HOMEBREW INSTALLATION
+Brew is a package manager for OSX
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ brew -v
@@ -10,11 +16,28 @@ or if you have already brew installed
 ```$ brew update```
 
 ## INSTALLATION ZSH
+```brew install zsh```
+
+## INSTALLATION OH-MY-ZSH
 ```$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
+
+## INSTALLATION iTERM2
+iTerm2 permet de faire du tilling!
+Install iTerm2: https://iterm2.com/downloads/stable/iTerm2-3_1_6.zip
+
+Indiquer à iTerm2 d'utiliser ZSH
+ * go to iTerm2 preferences.
+ * head to Profiles -> General.
+ * paste /bin/zsh in the Command textbox and restart iTerm2.
+
+For color download : 
+ * https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Solarized%20Dark%20-%20Patched.itermcolors
+ * https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Light.itermcolors
+Term → preferences → profiles → colors → load presets
 
 ## INSTALLATION POWEERLINE9K THEME
 And installation for a "powerline" style
-`$ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
+```$ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k```
 edit .zshrv config file and change the theme name : 
 ```
 $ nano ~/.zshrc
@@ -30,5 +53,5 @@ $ nano ~/.zshrc
 ```
 Next https://github.com/adobe-fonts/source-code-pro tell to execute:
 `$ brew tap caskroom/fonts && brew cask install font-source-code-pro`
-TERMINAL > preferences > profils > Police > modifed...
+Term → preferences → profiles > Police > modifed...
 choose source-code-pro   13px
