@@ -1,5 +1,5 @@
 # MY ZSH CONFIGURATION AND TEMPLATE
-![alt text](https://github.com/nicolastrote/MY-ZSH-CONFIG/blob/master/ntrote-zsh-color.png)
+![alt text](https://github.com/nicolastrote/MY-ZSH-CONFIG/blob/master/ntrote-zsh-color-awesome.png)
 
 Installation and template for my zsh:
  * zsh
