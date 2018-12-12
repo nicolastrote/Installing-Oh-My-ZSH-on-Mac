@@ -39,6 +39,13 @@ Term → preferences → profiles → colors → load presets
 
 If you like my theme, you can download my color theme from the repository: [ntrote.itermcolors](https://github.com/nicolastrote/MY-ZSH-CONFIG/blob/master/ntrote.itermcolors)
 
+## LOCAL PATH
+  * uncomment the 2d ligne in .zshrc file to activate access to your local path
+```
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+```
+
 ## INSTALLATION POWEERLINE9K THEME
 And installation for a "powerline" style
 ```$ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k```
