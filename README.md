@@ -1,4 +1,4 @@
-# OH-My-ZSH INSTALLATION, CONFIGURATION AND THEME
+# OH-My-ZSH + ZSH + iTerm2 INSTALLATION, CONFIGURATION AND THEME
 ![alt text](https://github.com/nicolastrote/MY-ZSH-CONFIG/blob/master/ntrote-zsh-color-awesome.png)
 
 Installation and template for my zsh:
@@ -24,10 +24,10 @@ or if you have already brew installed
 ```$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 
 ## INSTALLATION iTERM2
-iTerm2 permet de faire du tilling!
-Install iTerm2: https://iterm2.com/downloads/stable/iTerm2-3_1_6.zip
+Why iTerm2? Because you can split your iTerm windows vertically or horizontally to infinite!
+Download and install iTerm2 from https://iterm2.com/downloads/stable/iTerm2-3_1_6.zip
 
-Indiquer à iTerm2 d'utiliser ZSH
+Tell iTerm2 to use ZSH
  * go to iTerm2 preferences.
  * head to Profiles -> General.
  * paste /bin/zsh in the Command textbox and restart iTerm2.
