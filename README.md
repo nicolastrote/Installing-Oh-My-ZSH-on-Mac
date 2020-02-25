@@ -39,6 +39,9 @@ Term → preferences → profiles → colors → load presets
 
 If you like my theme, you can download my color theme from the repository: [ntrote.itermcolors](https://github.com/nicolastrote/MY-ZSH-CONFIG/blob/master/ntrote.itermcolors)
 
+For launch iterm2 with saved windows : 
+![alt text](https://github.com/nicolastrote/MY-ZSH-CONFIG/blob/master/ntrote-iterm2.png)
+
 ## LOCAL PATH
   * uncomment the 2d ligne in .zshrc file to activate access to your local path
 ```
