@@ -77,3 +77,11 @@ And add in iTerm the font
 By default, word jumps (option + → or ←) and word deletions (option + backspace) do not work. 
 To enable these, go to 
   * iTerm → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing
+  
+## AUTOSUGGESTION
+https://github.com/zsh-users/zsh-autosuggestions
+- `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+- `nano ~/.zshrc`
+- add:
+`plugins=(zsh-autosuggestions)`
+- restart terminal
