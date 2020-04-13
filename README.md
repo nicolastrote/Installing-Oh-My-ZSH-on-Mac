@@ -48,7 +48,16 @@ For launch iterm2 with saved windows :
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 ```
-
+For React Native development you can add:
+```
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export NODE_TLS_REJECT_UNAUTHORIZED=0
+``` 
 ## INSTALLATION POWEERLINE9K THEME
 And installation for a "powerline" style
 ```$ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k```
