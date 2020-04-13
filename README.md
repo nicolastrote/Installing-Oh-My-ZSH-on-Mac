@@ -5,7 +5,7 @@ Installation and template for my zsh:
  * zsh
  * oh-my-zsh
  * iTerm2
- * POWEERLINE9K theme Solarized: Light and Solarized Dark
+ * POWEERLINE10K theme Solarized: Light and Solarized Dark
  * POWERLINE fonts
 
 ## PRELEMINARY: HOMEBREW INSTALLATION
@@ -58,13 +58,18 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export NODE_TLS_REJECT_UNAUTHORIZED=0
 ``` 
-## INSTALLATION POWEERLINE9K THEME
+## INSTALLATION POWEERLINE10K FONT+ICONS
 And installation for a "powerline" style
-```$ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k```
+```$ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k```
 edit .zshrv config file and change the theme name : 
 ```
 $ nano ~/.zshrc
-  ZSH_THEME="powerlevel9k/powerlevel9k"
+  ZSH_THEME="powerlevel10k/powerlevel10k"
+  POWERLEVEL9K_MODE="awesome-patched"
+```
+for configuring
+```
+p10k configure
 ```
 
 ## INSTALLATION POWERLINE FONTS
@@ -79,6 +84,7 @@ $ nano ~/.zshrc
   ZSH_THEME="powerlevel9k/powerlevel9k"
 ```
 And add in iTerm the font
+ * Set this font in iTerm2 (iTerm → Preferences → Profiles → Text → Change Font), best to do this for "Font" and for "Non-ASCII Font".
  * Term → preferences → profiles > Police > modifed...
  * choose source-code-pro   13px
  
